@@ -21,7 +21,7 @@ class Home extends React.Component{
   componentDidMount(){
     this.getMovies();
   }
-  renter(){
+  render(){
     const {isLoading,movies}=this.state;
     return (
       <section className="container">
